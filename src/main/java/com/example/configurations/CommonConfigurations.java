@@ -17,7 +17,7 @@ import com.example.model.User;
 @Configuration
 public class CommonConfigurations {
 
-	 @Bean
+	    @Bean
 	    public ProducerFactory<String, User> producerFactory() {
 	        Map<String, Object> config = new HashMap<>();
 
